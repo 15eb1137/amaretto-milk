@@ -75,6 +75,10 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
+    Column(children: [
+        ListView(builder: Card(menu)),
+        Widget(ListView(member/fun/concert/mail), // each has column(collections/single*actions)
+    ]),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
